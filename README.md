@@ -1,6 +1,6 @@
 Yii2 Easing
 ===========
-Easing.js assets for Yii2 projects
+JQuery UI easing assets for Yii2 projects
 
 Installation
 ------------
@@ -28,7 +28,7 @@ Usage
 Once the extension is installed, simply use it by adding it to your view  :
 
 ```php
-use \derekisbusy\popper\PopperAsset;
+use \derekisbusy\easing\EasingAsset;
 
 PopperAsset::register($this);
 ```
@@ -37,7 +37,7 @@ or by adding it to another assets dependencies list :
 
 ```php
   public $depends = [
-    'derekisbusy\popper\PopperAsset'
+    'derekisbusy\easing\EasingAsset'
   ];
 ```
 
