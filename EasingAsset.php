@@ -5,9 +5,9 @@ use yii\web\AssetBundle;
 
 class EasingAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/derekisbusy/easing';
+    public $sourcePath = '@vendor/derekisbusy/yii2-easing';
     
     public $js = [
-        'js/easing.min.js',
+        YII_ENV_DEV ? 'js/easing.js' : 'js/easing.min.js',
     ];
 }
