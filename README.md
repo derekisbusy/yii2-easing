@@ -41,8 +41,8 @@ or by adding it to another assets dependencies list :
   ];
 ```
 
-Resources
----------
+Documentation
+-------------
 
  * [JQuery Easing](https://jqueryui.com/easing/)
  * [Yii2 assets](https://www.yiiframework.com/doc/guide/2.0/en/structure-assets)
