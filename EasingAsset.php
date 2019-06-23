@@ -1,13 +1,13 @@
 <?php
-namespace derekisbusy\bootstrap4;
+namespace derekisbusy\easing;
 
 use yii\web\AssetBundle;
 
-class BootstrapAsset extends AssetBundle
+class EasingAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/derekisbusy/easing';
     
     public $js = [
-        'js/popper.min.js',
+        'js/easing.min.js',
     ];
 }
