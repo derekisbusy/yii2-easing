@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "derekisbusy\\easing\\": ""
+            "derekisbusy\\easing\\": "src"
         }
     }
 }
